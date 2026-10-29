@@ -5,11 +5,11 @@ CLI pour afficher ou telecharger la transcription (sous-titres) d'une video ou d
 ## Installation (Homebrew)
 
 ```
-brew tap GITHUBUSER/ytsub
+brew tap snooker4real/ytsub
 brew install ytsub
 ```
 
-Alternative sans Homebrew: `pipx install git+https://github.com/GITHUBUSER/homebrew-ytsub`
+Alternative sans Homebrew: `pipx install git+https://github.com/snooker4real/homebrew-ytsub`
 
 ## Utilisation
 

@@ -2,8 +2,8 @@ class Ytsub < Formula
   include Language::Python::Virtualenv
 
   desc "Affiche ou telecharge la transcription (sous-titres) d'une video YouTube"
-  homepage "https://github.com/GITHUBUSER/homebrew-ytsub"
-  url "https://github.com/GITHUBUSER/homebrew-ytsub/archive/refs/tags/v0.1.0.tar.gz"
+  homepage "https://github.com/snooker4real/homebrew-ytsub"
+  url "https://github.com/snooker4real/homebrew-ytsub/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "REMPLACER_PAR_LE_SHA256_DU_TARBALL"
   license "MIT"
 
