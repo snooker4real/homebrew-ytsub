@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytsub"
+version = "0.1.0"
+description = "Affiche ou telecharge la transcription (sous-titres) d'une video ou playlist YouTube"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+  "youtube-transcript-api>=1.0,<2",
+  "yt-dlp",
+]
+
+[project.scripts]
+ytsub = "ytsub.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
