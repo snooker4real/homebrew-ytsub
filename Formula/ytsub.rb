@@ -4,7 +4,7 @@ class Ytsub < Formula
   desc "Affiche ou telecharge la transcription (sous-titres) d'une video YouTube"
   homepage "https://github.com/snooker4real/homebrew-ytsub"
   url "https://github.com/snooker4real/homebrew-ytsub/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REMPLACER_PAR_LE_SHA256_DU_TARBALL"
+  sha256 "9ad165a8fa2996ceeb959795aa545548d13de40d02dc763ff54325f599023fe6"
   license "MIT"
 
   depends_on "python@3.13"
